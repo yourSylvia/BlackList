@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#aaf7f3cf">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="BlackList"
+            android:textAllCaps="true"
+            android:textColor="#808080"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="113dp" />
+
+        <!-- Show whether the contact number -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#808080"
+            android:gravity="center"
+            android:id="@+id/BlockNumber"
+            android:textSize="23dp"
+            android:layout_marginBottom="38dp"
+            android:layout_above="@+id/Silence"
+            android:layout_alignParentStart="true" />
+
+        <!-- Name and U.No -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#808080"
+            android:gravity="center"
+            android:text="Xinwei Li U.No 3035454949"
+            android:id="@+id/textView1"
+            android:layout_above="@+id/textView2"
+            android:layout_alignParentStart="true" />
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#808080"
+            android:gravity="center"
+            android:text="Bingjing Yu U.No 3035419248"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="69dp"
+            android:id="@+id/textView2" />
+        <!-- Name and U.No Ends -->
+
+        <Button
+            android:id="@+id/Silence"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#66ffffff"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Add Blacklist"
+            android:layout_marginBottom="85dp"
+            android:layout_above="@+id/textView1"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>
